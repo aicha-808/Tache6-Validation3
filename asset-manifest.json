@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Tache6-Validation3%20%20/static/css/main.ddb4247b.css",
-    "main.js": "/Tache6-Validation3%20%20/static/js/main.b60ed560.js",
-    "static/js/787.a2af4022.chunk.js": "/Tache6-Validation3%20%20/static/js/787.a2af4022.chunk.js",
-    "static/media/portfolio4.png": "/Tache6-Validation3%20%20/static/media/portfolio4.1c3f8cff37caa2074c2f.png",
-    "static/media/aicha1.png": "/Tache6-Validation3%20%20/static/media/aicha1.907b64f60929fbce4435.png",
-    "static/media/portfolio1.png": "/Tache6-Validation3%20%20/static/media/portfolio1.c60a75061ea8c1af2f4a.png",
-    "static/media/portfolio3.png": "/Tache6-Validation3%20%20/static/media/portfolio3.aa7f72a77091c303b298.png",
-    "static/media/portfolio5.png": "/Tache6-Validation3%20%20/static/media/portfolio5.755ec111743758b94b41.png",
-    "static/media/portfolio2.png": "/Tache6-Validation3%20%20/static/media/portfolio2.6558d92452a2d31ed4eb.png",
-    "index.html": "/Tache6-Validation3%20%20/index.html",
-    "main.ddb4247b.css.map": "/Tache6-Validation3%20%20/static/css/main.ddb4247b.css.map",
-    "main.b60ed560.js.map": "/Tache6-Validation3%20%20/static/js/main.b60ed560.js.map",
-    "787.a2af4022.chunk.js.map": "/Tache6-Validation3%20%20/static/js/787.a2af4022.chunk.js.map"
+    "main.css": "/Tache6-Validation3/static/css/main.ddb4247b.css",
+    "main.js": "/Tache6-Validation3/static/js/main.888d675f.js",
+    "static/js/787.a2af4022.chunk.js": "/Tache6-Validation3/static/js/787.a2af4022.chunk.js",
+    "static/media/portfolio4.png": "/Tache6-Validation3/static/media/portfolio4.1c3f8cff37caa2074c2f.png",
+    "static/media/aicha1.png": "/Tache6-Validation3/static/media/aicha1.907b64f60929fbce4435.png",
+    "static/media/portfolio1.png": "/Tache6-Validation3/static/media/portfolio1.c60a75061ea8c1af2f4a.png",
+    "static/media/portfolio3.png": "/Tache6-Validation3/static/media/portfolio3.aa7f72a77091c303b298.png",
+    "static/media/portfolio5.png": "/Tache6-Validation3/static/media/portfolio5.755ec111743758b94b41.png",
+    "static/media/portfolio2.png": "/Tache6-Validation3/static/media/portfolio2.6558d92452a2d31ed4eb.png",
+    "index.html": "/Tache6-Validation3/index.html",
+    "main.ddb4247b.css.map": "/Tache6-Validation3/static/css/main.ddb4247b.css.map",
+    "main.888d675f.js.map": "/Tache6-Validation3/static/js/main.888d675f.js.map",
+    "787.a2af4022.chunk.js.map": "/Tache6-Validation3/static/js/787.a2af4022.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddb4247b.css",
-    "static/js/main.b60ed560.js"
+    "static/js/main.888d675f.js"
   ]
 }
