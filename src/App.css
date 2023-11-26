@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
+body{
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+}
+header{
+  width: 100%;
+  height: auto;
+  /* background:url('images/bg.jpg') no-repeat !important;
+  background-size: cover;
+  background-position: 0%;
+  object-fit: cover ; */
+  background-color: #424242;
+  padding-top: 5%;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+nav.navbar {
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+}
+nav.navbar.scrolled {
+  padding: 0px 0px;
+  background-color: #121212;
+}
+/* liens de navigations:pages */
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  color: #FFFFFF; 
+  margin-right: 6rem;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:focus {
+  border-bottom: 2px solid orange;
+}
+/* ******Accueil****** */
+.accueilText{
+  padding-top: 7rem !important;
+}
+.back{
+  background-color: #F7F7F7 !important;
+}
+/* ******presentation****** */
+.presentation .numbre{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FE9800;
+  color: #FFFFFF;
+  padding: 0px 4px ;
+}
+.titre, .vert{
+  color: #009688 !important;
+}
+/* ********Portfolio****** */
+.portfolio{
+  height: 100%;
+  background-color: #F7F7F7 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.portfolio .card{
+  height: 420px;
 }
-
-.App-link {
-  color: #61dafb;
+.vert1{
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.imgUrl{
+  width: 265px;
+  height: 170px;
+}
+/**********competences */
+.cont-desig{
+  background-color:  #F7F7F7 !important;
+}
+.designation a{
+ color: #009687 !important;
+}
+.designation a:hover{
+  border-bottom: 2px solid blue;
+}
+/* ******experiences */
+.experience{
+  background-color: #F7F7F7 !important;
+}
+.couleur{
+  background-color: #009687 !important;
+}
+/* *****contact******* */
+.bsumit{
+  background-color: #FC9511 !important;
+}
+.profil{
+  width: 300px;
+  height: 200px;
+}
+/* **********responsive************* */
+@media (max-width: 480px) {
+  section{
+    margin: 0%;
+    padding: 0%;
   }
-  to {
-    transform: rotate(360deg);
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    margin-right: 1rem;
+    margin-bottom: 0rem;
   }
+  nav.navbar.scrolled {
+    padding: 0px 0px;
+    background-color: orange;
+  }
+  nav.navbar {
+    padding: 0px 0px;
+    background-color: orange;
+  }
+
+  /**********accueil*** */
+  .sect-accueil{
+    margin-top: 45%;
+    padding: 0%;
+  }
+
+  .icone{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  h1, .textP{
+    font-size: 20px !important;
+  }
+  /* .contenu{
+    text-align: left !important;
+  } */
 }
+/* ****** */
